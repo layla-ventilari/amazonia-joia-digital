@@ -1,7 +1,5 @@
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-cream">
+  return <section id="about" className="py-20 bg-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="section-title">A Alma por trás das Criações</h2>
@@ -44,11 +42,7 @@ const About = () => {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
               <div className="bg-green-forest/10 rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] absolute top-4 left-4 -z-10"></div>
-              <img 
-                src="/lovable-uploads/1a692621-f525-42d3-ad3a-bb4a7f5d6a08.png" 
-                alt="Hadassa - Artesã de Biojoias" 
-                className="rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover object-center shadow-lg"
-              />
+              <img alt="Hadassa - Artesã de Biojoias" className="rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover object-center shadow-lg" src="/lovable-uploads/0501c30a-43e1-4881-b7b6-47f53da5e8c6.jpg" />
               <div className="absolute -bottom-4 -right-4 bg-gold/20 backdrop-blur-sm p-4 rounded-lg shadow-lg">
                 <p className="italic text-green-forest font-playfair">
                   "Puranga significa beleza em Nheengatu. A beleza que nasce do tempo, do toque, da verdade."
@@ -58,8 +52,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
