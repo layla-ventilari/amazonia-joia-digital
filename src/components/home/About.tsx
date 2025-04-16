@@ -41,7 +41,7 @@ const About = () => {
             <div className="relative">
               <div className="bg-green-forest/10 rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] absolute top-4 left-4 -z-10"></div>
               <img alt="Hadassa - Artesã de Biojoias" className="rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover object-center shadow-lg" src="/lovable-uploads/0501c30a-43e1-4881-b7b6-47f53da5e8c6.jpg" />
-              <div className="absolute -bottom-4 -right-4 backdrop-blur-sm p-4 rounded-lg shadow-lg bg-[#c8a35f]/[0.58]">
+              <div className="absolute -bottom-4 -right-4 bg-gold/20 backdrop-blur-sm p-4 rounded-lg shadow-lg">
                 <p className="italic text-green-forest font-playfair">
                   "Puranga significa beleza em Nheengatu. A beleza que nasce do tempo, do toque, da verdade."
                 </p>
