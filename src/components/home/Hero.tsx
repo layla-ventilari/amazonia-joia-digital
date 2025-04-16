@@ -1,6 +1,7 @@
+
 import { ArrowRight } from 'lucide-react';
 const Hero = () => {
-  return <section id="home" className="min-h-screen pt-20 flex items-center hero-section">
+  return <section id="home" className="min-h-screen pt-24 flex items-center hero-section">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-green-forest mb-6 animate-fade-in">Arte viva da floresta com raízes ancestrais</h1>

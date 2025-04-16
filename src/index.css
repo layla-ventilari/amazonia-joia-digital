@@ -55,7 +55,7 @@
 
 @layer components {
   .hero-section {
-    background-image: linear-gradient(to bottom, rgba(250, 249, 246, 0.4), rgba(250, 249, 246, 0.9)), url('/public/lovable-uploads/1a692621-f525-42d3-ad3a-bb4a7f5d6a08.png');
+    background-image: linear-gradient(to bottom, rgba(250, 249, 246, 0.4), rgba(250, 249, 246, 0.9)), url('/lovable-uploads/6419fe0b-4959-4fa7-a84e-574854e0379d.png');
     background-size: cover;
     background-position: center;
     @apply py-20;
