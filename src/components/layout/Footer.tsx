@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="font-playfair text-xl mb-4">Puranga Biojoias</h3>
             <p className="mb-4 text-cream/80">
-              Arte que nasce das mãos e do coração, transformando elementos naturais da Amazônia em joias que conectam pessoas à essência da floresta.
+              Arte viva da floresta, moldada pela alma de quem sonha com o amanhã. Transformando elementos naturais da Amazônia em portais que conectam pessoas à essência ancestral.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="https://instagram.com" className="text-cream hover:text-gold transition-colors" aria-label="Instagram">
@@ -27,11 +27,11 @@ const Footer = () => {
           <div>
             <h3 className="font-playfair text-xl mb-4">Navegue</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-cream/80 hover:text-gold transition-colors">Início</a></li>
-              <li><a href="#about" className="text-cream/80 hover:text-gold transition-colors">Sobre a Artesã</a></li>
-              <li><a href="#collections" className="text-cream/80 hover:text-gold transition-colors">Coleções</a></li>
+              <li><a href="#home" className="text-cream/80 hover:text-gold transition-colors">Portal Inicial</a></li>
+              <li><a href="#about" className="text-cream/80 hover:text-gold transition-colors">A Criadora</a></li>
+              <li><a href="#collections" className="text-cream/80 hover:text-gold transition-colors">Coleções com História</a></li>
               <li><a href="#shop" className="text-cream/80 hover:text-gold transition-colors">Espaço das Criações</a></li>
-              <li><a href="#contact" className="text-cream/80 hover:text-gold transition-colors">Contato</a></li>
+              <li><a href="#contact" className="text-cream/80 hover:text-gold transition-colors">Teça uma Conexão</a></li>
             </ul>
           </div>
           
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-cream/20 mt-8 pt-8 text-center text-cream/60">
-          <p>&copy; {new Date().getFullYear()} Puranga Biojoias da Amazônia. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Puranga Biojoias da Amazônia. Joias vivas, com alma amazônica.</p>
         </div>
       </div>
     </footer>

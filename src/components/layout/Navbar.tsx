@@ -35,17 +35,17 @@ const Navbar = () => {
           />
           <div className="ml-3">
             <h1 className="font-playfair font-medium text-green-forest text-xl">Puranga Biojoias</h1>
-            <p className="text-xs text-earth">A essência da Amazônia em cada detalhe</p>
+            <p className="text-xs text-earth">Arte viva da floresta amazônica</p>
           </div>
         </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-green-forest">
-          <a href="#home" className="hover:text-gold transition-colors">Início</a>
-          <a href="#about" className="hover:text-gold transition-colors">A Artesã</a>
-          <a href="#collections" className="hover:text-gold transition-colors">Coleções</a>
+          <a href="#home" className="hover:text-gold transition-colors">Portal</a>
+          <a href="#about" className="hover:text-gold transition-colors">A Criadora</a>
+          <a href="#collections" className="hover:text-gold transition-colors">Histórias</a>
           <a href="#shop" className="hover:text-gold transition-colors">Criações</a>
-          <a href="#contact" className="hover:text-gold transition-colors">Contato</a>
+          <a href="#contact" className="hover:text-gold transition-colors">Conexão</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -67,21 +67,21 @@ const Navbar = () => {
               className="text-green-forest hover:text-gold transition-colors py-2 px-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              Início
+              Portal
             </a>
             <a 
               href="#about" 
               className="text-green-forest hover:text-gold transition-colors py-2 px-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              A Artesã
+              A Criadora
             </a>
             <a 
               href="#collections" 
               className="text-green-forest hover:text-gold transition-colors py-2 px-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              Coleções
+              Histórias
             </a>
             <a 
               href="#shop" 
@@ -95,7 +95,7 @@ const Navbar = () => {
               className="text-green-forest hover:text-gold transition-colors py-2 px-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contato
+              Conexão
             </a>
           </div>
         </div>

@@ -59,8 +59,8 @@ const Collections = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Coleções que Contam Histórias</h2>
           <p className="mt-4 text-lg max-w-2xl mx-auto text-earth/80">
-            Cada peça é única e narra um capítulo da floresta amazônica, 
-            entrelaçando a beleza dos elementos naturais com técnicas artesanais transmitidas por gerações.
+            Em cada biojoia, carregamos o som das folhas, o silêncio do barro, a dança das cores naturais. 
+            Em cada peça, uma história. Em cada história, um reencontro.
           </p>
         </div>
         
@@ -71,7 +71,7 @@ const Collections = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a href="#shop" className="btn-primary">Explore o Catálogo Completo</a>
+          <a href="#shop" className="btn-primary">Explore a Coleção Viva</a>
         </div>
       </div>
     </section>
