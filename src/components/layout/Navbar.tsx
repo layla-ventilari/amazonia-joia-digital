@@ -35,16 +35,16 @@ const Navbar = () => {
           />
           <div className="ml-3">
             <h1 className="font-playfair font-medium text-green-forest text-xl">Puranga Biojoias</h1>
-            <p className="text-xs text-earth">Amazônia em cada detalhe</p>
+            <p className="text-xs text-earth">A essência da Amazônia em cada detalhe</p>
           </div>
         </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-green-forest">
-          <a href="#home" className="hover:text-gold transition-colors">Home</a>
-          <a href="#about" className="hover:text-gold transition-colors">Sobre</a>
+          <a href="#home" className="hover:text-gold transition-colors">Início</a>
+          <a href="#about" className="hover:text-gold transition-colors">A Artesã</a>
           <a href="#collections" className="hover:text-gold transition-colors">Coleções</a>
-          <a href="#shop" className="hover:text-gold transition-colors">Loja</a>
+          <a href="#shop" className="hover:text-gold transition-colors">Criações</a>
           <a href="#contact" className="hover:text-gold transition-colors">Contato</a>
         </div>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
         <button 
           className="md:hidden text-green-forest"
           onClick={toggleMenu}
-          aria-label="Toggle menu"
+          aria-label="Abrir menu"
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -67,14 +67,14 @@ const Navbar = () => {
               className="text-green-forest hover:text-gold transition-colors py-2 px-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              Home
+              Início
             </a>
             <a 
               href="#about" 
               className="text-green-forest hover:text-gold transition-colors py-2 px-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              Sobre
+              A Artesã
             </a>
             <a 
               href="#collections" 
@@ -88,7 +88,7 @@ const Navbar = () => {
               className="text-green-forest hover:text-gold transition-colors py-2 px-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              Loja
+              Criações
             </a>
             <a 
               href="#contact" 

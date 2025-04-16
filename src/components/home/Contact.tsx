@@ -24,8 +24,8 @@ const Contact = () => {
     
     // Show success toast
     toast({
-      title: "Mensagem enviada!",
-      description: "Agradecemos seu contato. Responderemos em breve.",
+      title: "Mensagem enviada com sucesso!",
+      description: "Agradecemos seu contato. Responderemos em breve com o carinho que sua mensagem merece.",
       variant: "default",
     });
     
@@ -41,15 +41,15 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="section-title">Entre em Contato</h2>
+          <h2 className="section-title">Conecte-se Conosco</h2>
           <p className="mt-4 text-lg max-w-2xl mx-auto text-earth/80">
-            Tem interesse em nossas peças ou deseja uma criação personalizada? Ficaremos felizes em atendê-lo.
+            Interesse em nossas criações ou deseja uma peça personalizada? Ficaremos felizes em tecer uma conexão com você.
           </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="font-playfair text-2xl text-green-forest mb-6">Envie uma mensagem</h3>
+            <h3 className="font-playfair text-2xl text-green-forest mb-6">Compartilhe seus pensamentos</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -62,7 +62,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-gold/50"
-                  placeholder="Seu nome"
+                  placeholder="Como podemos chamá-lo(a)"
                 />
               </div>
               
@@ -76,12 +76,12 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-gold/50"
-                  placeholder="seu.email@exemplo.com"
+                  placeholder="Para onde enviaremos nossa resposta"
                 />
               </div>
               
               <div>
-                <label htmlFor="message" className="block text-earth mb-2">Mensagem</label>
+                <label htmlFor="message" className="block text-earth mb-2">Sua mensagem</label>
                 <textarea
                   id="message"
                   name="message"
@@ -90,7 +90,7 @@ const Contact = () => {
                   required
                   rows={5}
                   className="w-full px-4 py-2 border border-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-gold/50"
-                  placeholder="Sua mensagem..."
+                  placeholder="Conte-nos o que você busca ou como podemos ajudá-lo(a)..."
                 />
               </div>
               
@@ -98,14 +98,14 @@ const Contact = () => {
                 type="submit" 
                 className="btn-primary w-full flex items-center justify-center"
               >
-                Enviar Mensagem
+                Enviar mensagem à artesã
                 <Send size={16} className="ml-2" />
               </button>
             </form>
           </div>
           
           <div>
-            <h3 className="font-playfair text-2xl text-green-forest mb-6">Informações de Contato</h3>
+            <h3 className="font-playfair text-2xl text-green-forest mb-6">Como nos encontrar</h3>
             
             <div className="space-y-6">
               <div className="flex items-start">
@@ -113,9 +113,9 @@ const Contact = () => {
                   <MapPin className="text-green-forest" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-earth">Endereço</h4>
+                  <h4 className="font-medium text-earth">Nosso ateliê</h4>
                   <p className="text-earth/70">Manaus, Amazonas - Brasil</p>
-                  <p className="text-earth/70">Atendemos todo o Brasil através de envios.</p>
+                  <p className="text-earth/70">Enviamos nossas criações para todo o Brasil.</p>
                 </div>
               </div>
               
@@ -126,7 +126,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-earth">Email</h4>
                   <p className="text-earth/70">contato@puranga.com</p>
-                  <p className="text-earth/70">Respondemos em até 24 horas.</p>
+                  <p className="text-earth/70">Respondemos com o carinho que sua mensagem merece.</p>
                 </div>
               </div>
               
@@ -146,7 +146,7 @@ const Contact = () => {
                   className="btn-secondary w-full flex items-center justify-center animate-pulse-light"
                 >
                   <MessageSquare size={18} className="mr-2" />
-                  Comprar via WhatsApp
+                  Converse diretamente conosco
                 </button>
                 <p className="text-sm text-earth/60 mt-2 text-center">
                   Atendimento de segunda a sexta, das 9h às 18h

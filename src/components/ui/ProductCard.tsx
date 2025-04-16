@@ -15,7 +15,7 @@ const ProductCard = ({ product }: { product: ProductProps }) => {
   const [isHovered, setIsHovered] = useState(false);
   
   const handleWhatsApp = () => {
-    const message = `Olá! Estou interessado(a) na peça "${product.name}" (${product.price}). Gostaria de mais informações.`;
+    const message = `Olá! Fiquei encantado(a) com a peça "${product.name}" (${product.price}). Gostaria de saber mais sobre a história e processo de criação dela.`;
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/5592987654321?text=${encodedMessage}`, '_blank');
   };
@@ -37,7 +37,7 @@ const ProductCard = ({ product }: { product: ProductProps }) => {
             onClick={handleWhatsApp}
             className="bg-cream text-green-forest px-4 py-2 rounded-md flex items-center transform -translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
           >
-            Comprar via WhatsApp
+            Converse com a artesã
             <ExternalLink size={16} className="ml-2" />
           </button>
         </div>

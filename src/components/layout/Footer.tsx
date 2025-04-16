@@ -9,8 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="font-playfair text-xl mb-4">Puranga Biojoias</h3>
             <p className="mb-4 text-cream/80">
-              Joias artesanais feitas com elementos naturais da Amazônia, 
-              unindo beleza, sustentabilidade e a riqueza cultural da floresta.
+              Arte que nasce das mãos e do coração, transformando elementos naturais da Amazônia em joias que conectam pessoas à essência da floresta.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="https://instagram.com" className="text-cream hover:text-gold transition-colors" aria-label="Instagram">
@@ -26,18 +25,18 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-playfair text-xl mb-4">Links</h3>
+            <h3 className="font-playfair text-xl mb-4">Navegue</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-cream/80 hover:text-gold transition-colors">Home</a></li>
-              <li><a href="#about" className="text-cream/80 hover:text-gold transition-colors">Sobre a Artista</a></li>
+              <li><a href="#home" className="text-cream/80 hover:text-gold transition-colors">Início</a></li>
+              <li><a href="#about" className="text-cream/80 hover:text-gold transition-colors">Sobre a Artesã</a></li>
               <li><a href="#collections" className="text-cream/80 hover:text-gold transition-colors">Coleções</a></li>
-              <li><a href="#shop" className="text-cream/80 hover:text-gold transition-colors">Loja</a></li>
+              <li><a href="#shop" className="text-cream/80 hover:text-gold transition-colors">Espaço das Criações</a></li>
               <li><a href="#contact" className="text-cream/80 hover:text-gold transition-colors">Contato</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-playfair text-xl mb-4">Contato</h3>
+            <h3 className="font-playfair text-xl mb-4">Fale Conosco</h3>
             <div className="flex items-center mb-3">
               <Phone size={18} className="mr-2" />
               <span>+55 (92) 98765-4321</span>
