@@ -7,16 +7,14 @@ const About = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
-            <h3 className="font-playfair text-2xl md:text-3xl text-green-forest mb-4">
-              Hadassa - Nômade, Artista, Guardiã do Batik Ancestral
-            </h3>
+            <h3 className="font-playfair text-2xl md:text-3xl text-green-forest mb-4">Circe Ventilari Artista Designer de Biojóias </h3>
             
             <p className="mb-4 text-lg">
               Nascida entre as águas e folhas da Amazônia, artista plástica, designer de moda e nômade digital, ela transforma caminhos em criações.
             </p>
             
             <p className="mb-4 text-lg">
-              Especialista em <span className="highlight-text">batik com tingimento natural</span>, suas peças misturam ancestralidade indígena, tecnologia e sustentabilidade com um toque de arte que já brilhou em galerias culturais e hotéis renomados.
+              Especialista em <span className="highlight-text">biojóias e batik com tingimento natural</span>, suas peças misturam ancestralidade indígena, tecnologia e sustentabilidade com um toque de arte que já brilhou em galerias culturais e hotéis renomados.
             </p>
             
             <p className="mb-8 text-lg">

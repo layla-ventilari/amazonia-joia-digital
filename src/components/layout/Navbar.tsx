@@ -21,7 +21,7 @@ const Navbar = () => {
   return <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-cream bg-opacity-95 shadow-md py-3' : 'py-5'}`}>
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link to="/" className="flex items-center">
-          <img alt="Puranga Biojoias Logo" className="h-12" src="/lovable-uploads/2c9eda4d-567f-4212-8d6d-1ff47641ee0c.png" />
+          <img alt="Puranga Biojoias Logo" className="h-12" src="/lovable-uploads/8a28f948-4f94-41d9-aa52-5e9524d4a231.png" />
           <div className="ml-3">
             <h1 className="font-playfair font-medium text-green-forest text-xl">Puranga Biojoias</h1>
             <p className="text-xs text-earth">Arte viva da floresta amazônica</p>
