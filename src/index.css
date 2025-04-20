@@ -54,10 +54,10 @@
 
 @layer components {
   .hero-section {
-    background-image: linear-gradient(to bottom, rgba(250, 249, 246, 0.4), rgba(250, 249, 246, 0.9)), url('/lovable-uploads/e519958e-b616-48fe-8061-2fd14830b6aa.png');
+    background-image: linear-gradient(to bottom, rgba(250, 249, 246, 0.4), rgba(250, 249, 246, 0.9)), url('/lovable-uploads/6344fc36-d95a-43f8-8ccd-da7f97abf55c.png');
     background-size: cover;
     background-position: center;
-    @apply py-20 mt-16;
+    @apply py-20;
   }
 
   .section-title {
