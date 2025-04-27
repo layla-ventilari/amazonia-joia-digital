@@ -31,7 +31,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-green-forest">
           <a href="#home" className="hover:text-gold transition-colors">Portal</a>
-          <a href="#about" className="hover:text-gold transition-colors">A Criadora</a>
+          <a href="#about" className="hover:text-gold transition-colors">A  Designer</a>
           <a href="#collections" className="hover:text-gold transition-colors">Histórias</a>
           <a href="#shop" className="hover:text-gold transition-colors">Criações</a>
           <a href="#contact" className="hover:text-gold transition-colors">Conexão</a>
