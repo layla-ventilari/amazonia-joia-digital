@@ -99,10 +99,9 @@ const Shop = () => {
     <section id="shop" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="section-title">Espaço das Criações</h2>
+          <h2 className="section-title">Loja</h2>
           <p className="mt-4 text-lg max-w-2xl mx-auto text-earth/80">
-            Descubra nossas biojoias vivas, onde a moda encontra a floresta 
-            — e você encontra um pedaço da sua essência.
+            Descubra nossas biojoias onde a moda encontra a natureza.
           </p>
         </div>
         
@@ -110,7 +109,7 @@ const Shop = () => {
           <div className="flex items-center mb-4 md:mb-0">
             <ShoppingBag className="text-green-forest mr-2" size={20} />
             <h3 className="font-playfair text-xl text-green-forest">
-              {filteredProducts.length} {filteredProducts.length === 1 ? 'Criação Única' : 'Criações Exclusivas'}
+              {filteredProducts.length} {filteredProducts.length === 1 ? 'Peça' : 'Peças'}
             </h3>
           </div>
           
@@ -142,7 +141,7 @@ const Shop = () => {
         
         <div className="text-center mt-12 flex flex-col items-center">
           <p className="text-lg text-green-forest font-medium mb-4">
-            Sentiu a conexão com alguma peça? Converse diretamente com a criadora
+            Gostou de alguma peça? Fale com a artista
           </p>
           <a 
             href="https://wa.me/5592987654321" 
@@ -150,7 +149,7 @@ const Shop = () => {
             rel="noopener noreferrer"
             className="btn-secondary animate-pulse-light"
           >
-            Adquira sua peça com história via WhatsApp
+            Comprar pelo WhatsApp
           </a>
         </div>
       </div>

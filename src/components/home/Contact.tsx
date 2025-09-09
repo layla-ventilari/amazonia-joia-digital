@@ -41,16 +41,15 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="section-title">Teça uma Conexão Conosco</h2>
+          <h2 className="section-title">Fale Conosco</h2>
           <p className="mt-4 text-lg max-w-2xl mx-auto text-earth/80">
-            Deseja uma peça personalizada ou tem interesse em conhecer mais sobre nosso processo criativo? 
-            Ficaremos felizes em construir uma ponte entre você e a floresta.
+            Quer uma peça personalizada ou saber mais sobre nosso trabalho? Entre em contato.
           </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="font-playfair text-2xl text-green-forest mb-6">Compartilhe seus sonhos conosco</h3>
+            <h3 className="font-playfair text-2xl text-green-forest mb-6">Envie sua mensagem</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -63,7 +62,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-gold/50"
-                  placeholder="Como a floresta deve te chamar"
+                  placeholder="Seu nome"
                 />
               </div>
               
@@ -77,7 +76,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-gold/50"
-                  placeholder="Onde enviaremos nossa resposta"
+                  placeholder="Seu email"
                 />
               </div>
               
@@ -91,7 +90,7 @@ const Contact = () => {
                   required
                   rows={5}
                   className="w-full px-4 py-2 border border-gold/30 rounded-md focus:outline-none focus:ring-2 focus:ring-gold/50"
-                  placeholder="Conte-nos que história você deseja carregar consigo..."
+                  placeholder="Conte-nos o que você procura..."
                 />
               </div>
               
@@ -99,14 +98,14 @@ const Contact = () => {
                 type="submit" 
                 className="btn-primary w-full flex items-center justify-center"
               >
-                Enviar mensagem à criadora
+                Enviar mensagem
                 <Send size={16} className="ml-2" />
               </button>
             </form>
           </div>
           
           <div>
-            <h3 className="font-playfair text-2xl text-green-forest mb-6">Encontre-nos na jornada</h3>
+            <h3 className="font-playfair text-2xl text-green-forest mb-6">Nossos contatos</h3>
             
             <div className="space-y-6">
               <div className="flex items-start">
@@ -114,9 +113,9 @@ const Contact = () => {
                   <MapPin className="text-green-forest" />
                 </div>
                 <div>
-                  <h4 className="font-medium text-earth">Nosso ateliê criativo</h4>
+                  <h4 className="font-medium text-earth">Localização</h4>
                   <p className="text-earth/70">Manaus, Amazonas - Brasil</p>
-                  <p className="text-earth/70">Enviamos nossas criações vivas para qualquer lugar do mundo.</p>
+                  <p className="text-earth/70">Enviamos para todo o Brasil.</p>
                 </div>
               </div>
               
@@ -127,7 +126,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-earth">Email</h4>
                   <p className="text-earth/70">purangabiojoias@gmail.com</p>
-                  <p className="text-earth/70">Cada mensagem é lida com o mesmo cuidado que dedicamos às nossas criações.</p>
+                  <p className="text-earth/70">Respondemos em até 24 horas.</p>
                 </div>
               </div>
               
@@ -147,7 +146,7 @@ const Contact = () => {
                   className="btn-secondary w-full flex items-center justify-center animate-pulse-light"
                 >
                   <MessageSquare size={18} className="mr-2" />
-                  Fale diretamente com a artista
+                  Fale com a artista
                 </button>
                 <p className="text-sm text-earth/60 mt-2 text-center">
                   Atendimento de segunda a sexta, das 9h às 18h (horário de Manaus)

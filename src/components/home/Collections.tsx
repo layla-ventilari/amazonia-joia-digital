@@ -57,10 +57,9 @@ const Collections = () => {
     <section id="collections" className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="section-title">Coleções que Contam Histórias</h2>
+          <h2 className="section-title">Nossas Coleções</h2>
           <p className="mt-4 text-lg max-w-2xl mx-auto text-earth/80">
-            Em cada biojoia, carregamos o som das folhas, o silêncio do barro, a dança das cores naturais. 
-            Em cada peça, uma história. Em cada história, um reencontro.
+            Cada biojoia conta uma história. Cada peça carrega a essência da natureza.
           </p>
         </div>
         
@@ -71,7 +70,7 @@ const Collections = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a href="#shop" className="btn-primary">Explore a Coleção Viva</a>
+          <a href="#shop" className="btn-primary">Ver Mais</a>
         </div>
       </div>
     </section>
