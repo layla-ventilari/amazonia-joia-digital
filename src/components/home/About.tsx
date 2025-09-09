@@ -17,9 +17,7 @@ const About = () => {
               Especialista em <span className="highlight-text">biojoias e tingimento natural</span>, combina sustentabilidade com arte contemporânea.
             </p>
             
-            <p className="mb-8 text-lg">
-              De volta a Manaus, cria para o mundo. Sua missão: traduzir a alma da floresta em joias que tocam outras almas.
-            </p>
+            <p className="mb-8 text-lg"> Sua missão é traduzir a alma da floresta em joias que tocam outras almas.</p>
             
             <div className="flex flex-wrap gap-4 mt-6">
               <div className="bg-muted px-4 py-2 rounded-full text-earth">
