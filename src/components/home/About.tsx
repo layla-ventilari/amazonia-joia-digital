@@ -38,7 +38,7 @@ const About = () => {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
               <div className="bg-green-forest/10 rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] absolute top-4 left-4 -z-10"></div>
-              <img alt="Circe Ventilari - Artista de Biojoias" className="rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover object-center shadow-lg" src="/lovable-uploads/0501c30a-43e1-4881-b7b6-47f53da5e8c6.jpg" />
+              <img alt="Circe Ventilari - Artista de Biojoias" className="rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover object-center shadow-lg" src="/public/Gemini_Generated_Image_fxlxfwfxlxfwfxlx (1).png" />
               <div className="absolute -bottom-4 -right-4 bg-gold/20 backdrop-blur-sm p-4 rounded-lg shadow-lg">
                 <p className="italic text-green-forest font-playfair">
                   "Puranga significa beleza em Nheengatu. A beleza que nasce do tempo, do toque, da verdade."
