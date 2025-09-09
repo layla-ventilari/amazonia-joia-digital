@@ -18,7 +18,7 @@ const Footer = () => {
               <a href="https://facebook.com" className="text-cream hover:text-gold transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="mailto:contato@puranga.com" className="text-cream hover:text-gold transition-colors" aria-label="Email">
+              <a href="mailto:purangabiojoias@gmail.com" className="text-cream hover:text-gold transition-colors" aria-label="Email">
                 <Mail size={20} />
               </a>
             </div>
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center mb-3">
               <Mail size={18} className="mr-2" />
-              <span>contato@puranga.com</span>
+              <span>purangabiojoias@gmail.com</span>
             </div>
             <p className="mt-4 text-cream/80">
               Manaus, Amazonas - Brasil

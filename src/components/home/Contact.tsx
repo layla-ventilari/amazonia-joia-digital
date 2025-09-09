@@ -126,7 +126,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-earth">Email</h4>
-                  <p className="text-earth/70">contato@puranga.com</p>
+                  <p className="text-earth/70">purangabiojoias@gmail.com</p>
                   <p className="text-earth/70">Cada mensagem é lida com o mesmo cuidado que dedicamos às nossas criações.</p>
                 </div>
               </div>
