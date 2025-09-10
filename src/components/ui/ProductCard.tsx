@@ -1,15 +1,7 @@
 
 import { useState } from 'react';
 import { ExternalLink } from 'lucide-react';
-
-export interface ProductProps {
-  id: string;
-  name: string;
-  description: string;
-  price: string;
-  imageSrc: string;
-  category: string;
-}
+import { ProductProps } from '@/types/product';
 
 const ProductCard = ({ product }: { product: ProductProps }) => {
   const [isHovered, setIsHovered] = useState(false);
