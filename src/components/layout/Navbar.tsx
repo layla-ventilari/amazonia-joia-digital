@@ -30,10 +30,10 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-green-forest">
-          <a href="#home" className="hover:text-gold transition-colors">Portal</a>
+          <a href="#home" className="hover:text-gold transition-colors">Home</a>
           <a href="#about" className="hover:text-gold transition-colors">A  Designer</a>
-          <a href="#collections" className="hover:text-gold transition-colors">Histórias</a>
-          <a href="#shop" className="hover:text-gold transition-colors">Criações</a>
+          <a href="#collections" className="hover:text-gold transition-colors">Coleções</a>
+          <a href="#shop" className="hover:text-gold transition-colors">Categorias</a>
           <a href="#contact" className="hover:text-gold transition-colors">Conexão</a>
         </div>
 
@@ -47,13 +47,13 @@ const Navbar = () => {
       {isMenuOpen && <div className="md:hidden fixed top-[4rem] left-0 right-0 bg-cream bg-opacity-98 border-b border-gold">
           <div className="flex flex-col space-y-4 p-4">
             <a href="#home" className="text-green-forest hover:text-gold transition-colors py-2 px-4" onClick={() => setIsMenuOpen(false)}>
-              Portal
+              Home
             </a>
             <a href="#about" className="text-green-forest hover:text-gold transition-colors py-2 px-4" onClick={() => setIsMenuOpen(false)}>
               A Criadora
             </a>
             <a href="#collections" className="text-green-forest hover:text-gold transition-colors py-2 px-4" onClick={() => setIsMenuOpen(false)}>
-              Histórias
+              Coleções
             </a>
             <a href="#shop" className="text-green-forest hover:text-gold transition-colors py-2 px-4" onClick={() => setIsMenuOpen(false)}>
               Criações

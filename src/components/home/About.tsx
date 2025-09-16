@@ -38,10 +38,13 @@ const About = () => {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
               <div className="bg-green-forest/10 rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] absolute top-4 left-4 -z-10"></div>
-              <img alt="Circe Ventilari - Artista de Biojoias" className="rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover object-center shadow-lg" src="/public/profile.png" />
-              <div className="absolute -bottom-4 -right-4 bg-gold/20 backdrop-blur-sm p-4 rounded-lg shadow-lg">
-                <p className="italic text-green-forest font-playfair">
-                  "Puranga significa beleza em Nheengatu. A beleza que nasce do tempo, do toque, da verdade."
+              <img 
+                alt="Circe Ventilari - Artista de Biojoias" 
+                className="rounded-full w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-cover object-[35%_40%] shadow-lg"
+                src="/assets/profile.png" />
+              <div className="absolute -bottom-3 -right-4 bg-gold/70 backdrop-blur-sm p-4 rounded-lg shadow-lg">
+                <p className="italic text-amber-100 font-playfair">
+                  "Puranga significa beleza em Nheengatu. Nossas biojoias traduzem verdade, elegância e design consciente."
                 </p>
               </div>
             </div>
