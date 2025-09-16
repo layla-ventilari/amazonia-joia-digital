@@ -30,7 +30,7 @@ const ProductCard = ({ product }: { product: ProductProps }) => {
         <img 
           src={product.imageSrc} 
           alt={product.name}
-          className={`w-full h-full object-contain group-hover:object-cover transition-all duration-700 ${isHovered ? 'scale-110' : 'scale-100'}`}
+          className={`w-full h-full object-cover transition-transform duration-500 ${isHovered ? 'scale-105' : 'scale-100'}`}
           loading="lazy"
         />
         
