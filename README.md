@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+Perfeito! Vou criar um **README estruturado** para o site da Puranga Biojoias, voltado para GitHub ou para documentação do projeto. Como base, vou considerar que o site está sendo desenvolvido em **React / Lovable**, e que o propósito é apresentar a marca, produtos e valores. Aqui vai um exemplo:
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/68d66d94-fd57-4ef7-ac35-51e03b4442be
+# Puranga Biojoias - Website
 
-## How can I edit this code?
+Bem-vindo ao repositório do **site oficial da Puranga Biojoias**, uma marca que celebra a **riqueza natural e cultural da Amazônia** por meio de peças artesanais sustentáveis.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🌿 Sobre o Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/68d66d94-fd57-4ef7-ac35-51e03b4442be) and start prompting.
+O site tem como objetivo:
 
-Changes made via Lovable will be committed automatically to this repo.
+* Apresentar a marca e sua história.
+* Mostrar a coleção de biojoias feitas com **sementes, madeira e fibras naturais**.
+* Valorizar o **design contemporâneo aliado a técnicas tradicionais**.
+* Divulgar os valores da marca: **sustentabilidade, cultura local e empoderamento das comunidades artesãs**.
+* Servir como canal de contato e venda para clientes conscientes.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💻 Tecnologias Utilizadas
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **React**: estrutura da aplicação.
+* **Lovable**: prototipação e design da interface.
+* **Tailwind CSS / Styled Components**: estilização responsiva e acessível.
+* **Vercel / Netlify** (opcional): deploy do site.
+* Integração com redes sociais (Instagram e Facebook).
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📦 Estrutura do Projeto
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+puranga-biojoias/
+│
+├─ public/          # Recursos públicos (imagens, ícones, favicon)
+├─ src/
+│  ├─ components/   # Componentes reutilizáveis
+│  ├─ pages/        # Páginas do site (Home, Sobre, Loja, Contato)
+│  ├─ assets/       # Imagens e mídias
+│  ├─ styles/       # Arquivos de estilo global
+│  └─ App.jsx       # Componente principal
+│
+├─ package.json     # Dependências e scripts
+└─ README.md        # Este arquivo
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎨 Design e UX
 
-**Use GitHub Codespaces**
+* **Foco na acessibilidade**: cores e tipografia amigáveis para todos os públicos.
+* **Experiência intuitiva**: navegação clara e organizada.
+* **Estética natural e contemporânea**: paleta inspirada na Amazônia e nos materiais das biojoias.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🚀 Como Executar Localmente
 
-This project is built with:
+1. Clone o repositório:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+git clone https://github.com/seu-usuario/puranga-biojoias.git
+```
 
-## How can I deploy this project?
+2. Instale as dependências:
 
-Simply open [Lovable](https://lovable.dev/projects/68d66d94-fd57-4ef7-ac35-51e03b4442be) and click on Share -> Publish.
+```bash
+cd puranga-biojoias
+npm install
+```
 
-## Can I connect a custom domain to my Lovable project?
+3. Rode o projeto:
 
-Yes, you can!
+```bash
+npm start
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+O site será aberto em `http://localhost:3000`.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📞 Contato
+
+Para mais informações ou parcerias, entre em contato via:
+
+* Instagram: [@purangabiojoias](https://www.instagram.com/purangabiojoias/)
+* Facebook: [Puranga Biojoias](https://www.facebook.com/purangabiojoias)
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas!
+Sinta-se à vontade para abrir **issues** ou **pull requests** para melhorias no site ou atualização de conteúdos.
+
+---
+
+Se você quiser, posso criar uma **versão ainda mais enxuta e moderna** do README, com **badges, preview do site e instruções super visuais**, pronta para colocar direto no GitHub.
+
+Quer que eu faça essa versão também?
