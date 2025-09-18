@@ -69,6 +69,10 @@
     @apply block h-1 w-2/3 bg-gold mt-2 mx-auto;
   }
   
+  .section-title-minimal {
+    @apply font-serif uppercase tracking-wider text-foreground;
+  }
+  
   .highlight-text {
     @apply text-green-forest font-medium;
   }

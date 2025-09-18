@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import ProductCard from '../ui/ProductCard';
+import ProductCardMinimal from '../ui/ProductCardMinimal';
 import { ShoppingBag, Filter } from 'lucide-react';
 import { productService } from '@/data/productService';
 
@@ -48,9 +48,9 @@ const Shop = () => {
           </div>
         </div>
         
-        <div className="gallery-grid">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {filteredProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCardMinimal key={product.id} product={product} />
           ))}
         </div>
         

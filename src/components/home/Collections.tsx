@@ -1,5 +1,5 @@
 
-import ProductCard from '../ui/ProductCard';
+import ProductCardMinimal from '../ui/ProductCardMinimal';
 import { productService } from '@/data/productService';
 
 const Collections = () => {
@@ -13,9 +13,9 @@ const Collections = () => {
           </p>
         </div>
         
-        <div className="gallery-grid">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {productService.getFeaturedProducts().map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCardMinimal key={product.id} product={product} />
           ))}
         </div>
         
