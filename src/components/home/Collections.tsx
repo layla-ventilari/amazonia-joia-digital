@@ -4,10 +4,10 @@ import { productService } from '@/data/productService';
 
 const Collections = () => {
   return (
-    <section id="collections" className="py-20 bg-muted">
+    <section id="collections" className="py-20 bg-cream">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="section-title">Nossas Coleções</h2>
+          <h2 className="section-title">Coleção Nova</h2>
           <p className="mt-4 text-lg max-w-2xl mx-auto text-earth/80">
             Cada biojoia conta uma história. Cada peça carrega a essência da natureza.
           </p>

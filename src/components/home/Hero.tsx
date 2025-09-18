@@ -1,5 +1,3 @@
-import { ArrowRight } from 'lucide-react';
-
 const Hero = () => {
   return (
     <section
@@ -25,12 +23,17 @@ const Hero = () => {
               className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in w-full"
               style={{ animationDelay: "0.4s" }}
             >
-              <a href="#collections" className="btn-primary flex items-center justify-center w-full sm:w-auto">
-                Ver Coleção
-                <ArrowRight size={18} className="ml-2" />
+              <a
+                href="#collections"
+                className="btn-primary flex items-center justify-center w-full sm:w-auto border-none shadow-none"
+              >
+                Coleção Nova
               </a>
-              <a href="#about" className="btn-secondary w-full sm:w-auto text-center">
-                Sobre a artista
+              <a
+                href="#about"
+                className="w-full sm:w-auto text-center border-2 border-green-forest text-green-forest bg-transparent hover:bg-green-forest hover:text-white transition-colors duration-200 rounded px-6 py-2 font-semibold"
+              >
+                Saiba mais
               </a>
             </div>
           </div>
