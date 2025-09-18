@@ -89,15 +89,3 @@ Para mais informações ou parcerias, entre em contato via:
 * Instagram: [@purangabiojoias](https://www.instagram.com/purangabiojoias/)
 * Facebook: [Puranga Biojoias](https://www.facebook.com/purangabiojoias)
 
----
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas!
-Sinta-se à vontade para abrir **issues** ou **pull requests** para melhorias no site ou atualização de conteúdos.
-
----
-
-Se você quiser, posso criar uma **versão ainda mais enxuta e moderna** do README, com **badges, preview do site e instruções super visuais**, pronta para colocar direto no GitHub.
-
-Quer que eu faça essa versão também?
