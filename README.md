@@ -1,6 +1,3 @@
-Perfeito! Vou criar um **README estruturado** para o site da Puranga Biojoias, voltado para GitHub ou para documentação do projeto. Como base, vou considerar que o site está sendo desenvolvido em **React / Lovable**, e que o propósito é apresentar a marca, produtos e valores. Aqui vai um exemplo:
-
----
 
 # Puranga Biojoias - Website
 
