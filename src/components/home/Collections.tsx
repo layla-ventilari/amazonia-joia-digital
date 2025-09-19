@@ -4,7 +4,7 @@ import { productService } from '@/data/productService';
 
 const Collections = () => {
   return (
-    <section id="collections" className="py-20 bg-cream">
+    <section id="collections" className="py-20 bg-cream-300">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="section-title">Coleção Nova</h2>

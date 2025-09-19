@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Send, Mail, MapPin, Phone, MessageSquare } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
@@ -18,18 +17,12 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Simulate form submission
     console.log('Form submitted:', formData);
-    
-    // Show success toast
     toast({
       title: "Sua mensagem foi enviada com sucesso!",
       description: "Agradecemos seu contato. Em breve, a própria artista responderá com o mesmo cuidado que dedica às suas criações.",
       variant: "default",
     });
-    
-    // Reset form
     setFormData({ name: '', email: '', message: '' });
   };
 
@@ -38,7 +31,16 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-cream">
+    <section
+      id="contact"
+      className="py-20 bg-amber-100 relative"
+      style={{
+        backgroundImage: "url('/assets/bg-gradient.svg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="section-title">Fale Conosco</h2>
@@ -50,7 +52,6 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h3 className="font-playfair text-2xl text-green-forest mb-6">Envie sua mensagem</h3>
-            
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-earth mb-2">Nome</label>
@@ -65,7 +66,6 @@ const Contact = () => {
                   placeholder="Seu nome"
                 />
               </div>
-              
               <div>
                 <label htmlFor="email" className="block text-earth mb-2">Email</label>
                 <input
@@ -79,7 +79,6 @@ const Contact = () => {
                   placeholder="Seu email"
                 />
               </div>
-              
               <div>
                 <label htmlFor="message" className="block text-earth mb-2">Sua mensagem</label>
                 <textarea
@@ -93,7 +92,6 @@ const Contact = () => {
                   placeholder="Conte-nos o que você procura..."
                 />
               </div>
-              
               <button 
                 type="submit" 
                 className="btn-primary w-full flex items-center justify-center"
@@ -103,10 +101,8 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          
           <div>
             <h3 className="font-playfair text-2xl text-green-forest mb-6">Nossos contatos</h3>
-            
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="bg-green-forest/10 p-3 rounded-full mr-4">
@@ -118,7 +114,6 @@ const Contact = () => {
                   <p className="text-earth/70">Enviamos para todo o Brasil.</p>
                 </div>
               </div>
-              
               <div className="flex items-start">
                 <div className="bg-green-forest/10 p-3 rounded-full mr-4">
                   <Mail className="text-green-forest" />
@@ -129,7 +124,6 @@ const Contact = () => {
                   <p className="text-earth/70">Respondemos em até 24 horas.</p>
                 </div>
               </div>
-              
               <div className="flex items-start">
                 <div className="bg-green-forest/10 p-3 rounded-full mr-4">
                   <Phone className="text-green-forest" />
@@ -139,7 +133,6 @@ const Contact = () => {
                   <p className="text-earth/70">+55 (92) 98765-4321</p>
                 </div>
               </div>
-              
               <div className="mt-8">
                 <button 
                   onClick={handleWhatsApp}

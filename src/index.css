@@ -44,7 +44,7 @@
   }
 
   body {
-    @apply bg-cream text-earth font-lato;
+    @apply bg-amber-200 text-earth font-lato;
   }
 
   h1, h2, h3, h4, h5, h6 {
